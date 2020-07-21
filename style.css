@@ -1,11 +1,3 @@
-
-
-@media screen and (max-width: 375px){
-    h1 {
-        color: grey;
-    }
-}
-
 h1, h2, h3 {
     text-align: center;
 }
@@ -16,9 +8,22 @@ p {
 }
 
 #title {
-    font-size: 2em;
+    font-size: 2.8em;
     text-transform: uppercase;
     font-weight: lighter;
+}
+
+#sub-title {
+    font-size: 2em;
+    font-weight: lighter;
+    box-sizing: border-box;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 100%;
+}
+
+.sub-separator {
+    width: 50%;
 }
 
 #header {
@@ -29,7 +34,92 @@ p {
     text-align: center;
 }
 
+#image-figure figcaption {
+    font-size: 0.8em;
+    line-height: 1.3em;
+    padding-top: 5px;
+    color: #757575;
+    font-style: italic;
+}
+
 #image {
     display: block;
     margin: 0 auto;
+    max-width: 100%;
+}
+
+/* Timeline */
+
+#timeline {
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 20px;
+}
+
+/* Quote */
+
+blockquote {
+    background: #eee;
+    margin: 0;
+    position: relative;
+    padding-bottom: 2em;
+}
+
+#quote {
+    padding: 15px;
+}
+
+#quote-caption {
+    padding-bottom: 10px;
+    padding-right: 15px;
+    text-align: right;  
+    position: absolute;
+    width: 70%;
+    bottom: 0px;
+    right: 0px;
+}
+
+/* Tribute link */
+
+#tribute-link {
+    font-size: 1.6em;
+    font-weight: lighter;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+}
+
+/* Footer */
+
+#footer {
+    text-align: right;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media screen and (max-width: 500px){
+    #title {
+        font-size: 1.6em;
+    }
+
+    #sub-title {
+        font-size: 1.3em;
+    }
+
+    #tribute-link {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    #timeline {
+        width: 50%;
+    }
+
+    #quote-figure {
+        width: 50%;
+        margin: 0 auto;
+    }
 }
