@@ -1,6 +1,4 @@
-html {
-    font-size: 62.5%; /*setting the base font size to 10px*/
-}
+
 
 @media screen and (max-width: 375px){
     h1 {
@@ -13,12 +11,12 @@ h1, h2, h3 {
 }
 
 p {
-    font-size: 1.6em;
-    line-height: 2.5em;
+    font-size: 1em;
+    line-height: 2em;
 }
 
 #title {
-    font-size: 3em;
+    font-size: 2em;
     text-transform: uppercase;
     font-weight: lighter;
 }
